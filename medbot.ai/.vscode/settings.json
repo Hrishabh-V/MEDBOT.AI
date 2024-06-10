@@ -1,0 +1,11 @@
+{
+    "discord.detailsDebugging": "Debugging",
+    "discord.largeImage": "Editing a {LANG} ",
+    "discord.lowerDetailsDebugging": "Debugging: ",
+    "discord.lowerDetailsEditing": "Workspace:",
+    "discord.detailsEditing": "Editing",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
+}

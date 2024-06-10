@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Run Python Script</title>
+</head>
+<body>
+    <button id="runScriptBtn">Run Python Script</button>
+    <script>
+        document.getElementById('runScriptBtn').addEventListener('click', function() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/run_script', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            console.log('Python script executed successfully.');
+        }
+    };
+    xhr.send();
+});
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
