@@ -1,4 +1,33 @@
-/.venv
-/logs
-/.env
-/src/test
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment and config files
+.env
+*.env
+
+# Logs and temporary files
+logs/
+*.log
+
+# Test directories
+src/test/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
